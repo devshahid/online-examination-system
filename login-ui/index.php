@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>CEE LOGIN</title>
+	<title>EXAMINEE LOGIN</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="login-ui/image/png" href="images/icons/favicon.ico"/>
@@ -26,7 +26,7 @@
 					</span>
 				</div>
 
-				<form method="post" id="examineeLoginFrm" class="login100-form validate-form">
+				<form method="POST" id="examineeLoginFrm" class="login100-form validate-form">
 					<div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
 						<span class="label-input100">Email</span>
 						<input class="input100" type="text" name="username" placeholder="Enter email">

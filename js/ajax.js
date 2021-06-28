@@ -1,6 +1,7 @@
 // Admin Log in
 $(document).on("submit","#examineeLoginFrm", function(){
    $.post("query/loginExe.php", $(this).serialize(), function(data){
+
       if(data.res == "invalid")
       {
         Swal.fire(
@@ -48,7 +49,7 @@ if (result.value) {
          'Already Taken',
          "you already take this exam",
          'error'
-       ) 
+       )
     }
     else if(data.res == "success")
     {
